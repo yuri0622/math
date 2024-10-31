@@ -23,8 +23,8 @@ a = st.number_input('수를 입력하세요', value= 0)
 # 버튼 생성 및 동작
 if st.button('양수일까 음수일까?'):
        if a > 0:
-              st.write('________')
+              st.write('양수')
        elif a < 0:
-              st.write('________')
+              st.write('0')
        else:
-              st.write('________')
+              st.write('음수')
